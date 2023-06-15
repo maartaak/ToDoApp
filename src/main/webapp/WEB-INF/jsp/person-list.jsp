@@ -27,7 +27,7 @@
                        items="${persons}"
                        varStatus="loop">
                 <tr>
-                    <th scope="row">#${loop.index}</th>
+                    <th scope="row">#${loop.index + 1}</th>
                     <td>${person.id}</td>
                     <td>${person.name}</td>
                     <td>
