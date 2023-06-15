@@ -1,0 +1,37 @@
+body {
+  background-color: darkgray;
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.container .header {
+  flex: 0 1 auto;
+}
+.container .content {
+  flex: 1 1 auto;
+}
+
+.add-right-top-corner-button {
+  margin-top: 15px;
+}
+
+.todolist {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.todolist-task {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.task-done {
+  color: #2c952c;
+}
